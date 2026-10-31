@@ -28,13 +28,13 @@ We use **one NVIDIA RTX 4090 GPU** for training.
 **SYSU-MM01:**
 
 ```bash
-python train.py --gpu 0 --dataset sysu --batch-size 7 --num_pos 8 --part_num 12 --w_hc 3.0
+python train.py --gpu 0 --dataset sysu 
 ```
 
-**RegDB (Trial 1):**
+**RegDB:**
 
 ```bash
-python train.py --gpu 0 --dataset regdb --trial 1 --batch-size 7 --num_pos 8 --part_num 12 --w_hc 3.0
+python train.py --gpu 0 --dataset regdb 
 ```
 
 ## Evaluation
